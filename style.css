@@ -1,0 +1,152 @@
+:root {
+    /* primary colors */
+    --very-dark-magneta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    /* neutral colors */
+    --dark-grayish-magneta: hsl(303, 10%, 53%);
+    --light-grayish-magneta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    font-family: 'League Spartan', sans-serif;
+    width: 77%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.top-container {
+    display: grid;
+    height: 30vh;
+    grid-gap: 3em;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.first-content {
+    width: 75%;
+    
+}
+
+
+
+/* Typography */
+h1 {
+    color: var(--very-dark-magneta);
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: var(--dark-grayish-magneta);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.name {
+    color: var(--white);
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.title {
+    color: var(--soft-pink);
+}
+
+.review {
+    color: var(--white);
+}
+
+
+.rating {
+    width: 82%;
+    background-color: var(--light-grayish-magneta);
+    padding: 20px;
+    margin: 15px 0;
+    color: var(--very-dark-magneta);
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+#reviews {
+    padding-right: 50px;
+}
+
+#report-guru {
+    margin-left: 45px;
+    padding-right: 50px;
+}
+
+#best-tech {
+    margin-left: 80px;
+    padding-right: 50px;
+}
+
+
+/* buyers-review section */
+
+.buyers-reviews {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.buyer-review {
+    width: 95%;
+    background-color: var(--very-dark-magneta);
+    padding: 33px;
+    border-radius: 8px;
+}
+
+.profile {
+    display: flex;
+}
+
+.image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.review-2 {
+    position: relative;
+    top: 30px;
+}
+
+.review-3 {
+    position: relative;
+    top: 60px;
+}
+
+
+/* Footer Section */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: var(--dark-grayish-magneta);
+}
