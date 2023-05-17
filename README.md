@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github page](https://github.com/Ikquilibrium-SG/social-proof-section-master)
+- Live Site URL: [github site](https://ikquilibrium-sg.github.io/social-proof-section-master/)
 
 ## My process
 
